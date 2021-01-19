@@ -52,5 +52,11 @@ yield put(clientsClearMessage());
 ```
 
 ## Work experience
+* [CRM](https://github.com/MaSkA6293/CRM-BeautySalon-React-TS-MongoDB) training project (React, NodeJS, MongoDB)
+* [ToDo](https://github.com/MaSkA6293/ToDo2-ReactMERNdeployToHeroku) training project (React, NodeJS, MongoDB)
+* [LearnJs](https://github.com/MaSkA6293/LearnJS) training project (JS)
+* [MySkills](https://github.com/MaSkA6293/MySkills) training project (React)
+* [BeautySalon](https://github.com/MaSkA6293/elenabyreact) training project (React)
 
 ## Other information
+* English skills A2
