@@ -6,7 +6,6 @@ html {
     color:#636466
   }
 
-
 .wraper {
     max-width: 1024px;
     margin: auto;
@@ -14,7 +13,6 @@ html {
 }
 
 aside{
-    display: flex;
     background-color: #dcddde;
     flex-direction: column;
     flex: 40%;
@@ -24,13 +22,23 @@ aside{
     width: 80%;
     margin: auto;
 }
+
 main {
-    display: flex;
     flex: 60%;
     background-color: #636466;
     color: #ffffff;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    padding-bottom: 50px;
 }
 
+main h1{
+    text-transform: uppercase;
+}
+.main__wraper{
+    width: 80%;
+    margin: auto;
+}
 
 .aside__header {
     text-align: center;
@@ -58,16 +66,47 @@ main {
 .aside__contacts ul{
     list-style: none;
     padding:0
-    
 }
-
-
 
 .string-block{
     height: 3px;
 background-color: #949698;
+position: relative;
 }
 
+.string-block__decor{
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 7px;
+    background-color: #31afd8;
+    width: 40px;
+}
+
+.technical-skills ul{
+list-style: none;
+padding-left:20px ;
+}
+
+.technical-skills h3{
+    margin: 5px 0;
+}
+
+pre {
+    width: 100%;
+    padding-left:10px ;
+	margin: 0;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 12px;
+	line-height: 20px; 
+    border: 1px solid #777;
+    background-color: #515254;
+}
+
+.work-experience ul li{
+    padding: 5px 0;
+}
 
 @media (max-width: 800px) {
   
