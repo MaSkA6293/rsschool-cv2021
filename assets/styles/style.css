@@ -13,10 +13,11 @@ html {
 }
 
 aside{
+    flex: 1 1 40%;
     background-color: #dcddde;
     flex-direction: column;
-    flex: 40%;
     font-size: 1.5rem;
+    padding-bottom: 20px;
 }
 .aside__wraper{
     width: 80%;
@@ -24,7 +25,8 @@ aside{
 }
 
 main {
-    flex: 60%;
+    display: flex;
+    flex: 1 1 60%;
     background-color: #636466;
     color: #ffffff;
     font-size: 1.5rem;
@@ -60,7 +62,7 @@ main h1{
     box-shadow: 0px 0px 20px #001e22;
 }
 .aside__header span {
-    font-size: 1.7rem;
+    font-size: 2.2rem;
 }
 
 .aside__contacts ul{
@@ -109,13 +111,56 @@ pre {
 }
 
 @media (max-width: 800px) {
-  
- }
+    .aside__header img {
+        width: 190px;
+        height: 190px;
+      }
+      aside{
+          font-size: 1.4;
+      }
+      main{
+          font-size: 1.4;
+      }
+}
 
- @media (max-width: 600px) {
-   
- }
+@media (max-width: 700px) {
+     .aside__header img {
+         width: 170px;
+         height: 170px;
+       }
+       aside {
+           font-size: 1.2rem;
+       }
+       main{
+           font-size: 1.2rem;
+       }
+    }
+
+ @media (max-width: 650px) {
+  .wraper {
+       flex-direction: column;
+    }
+    .aside__header img {
+        width: 300px;
+        height: 300px;
+      }
+      aside {
+          font-size: 1.5rem;
+      }
+      main{
+          font-size: 1.5rem;
+      }
+ } 
 
  @media (max-width: 450px) {
-    
+    .aside__header img {
+        width: 200px;
+        height: 200px;
+      }
+      aside {
+          font-size: 1.3rem;
+      }
+      main{
+          font-size: 1.3rem;
+      }
  }
