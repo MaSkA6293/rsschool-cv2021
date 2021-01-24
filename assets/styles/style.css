@@ -1,0 +1,166 @@
+html {
+    font-size: 14px;
+    width: 100%;
+    min-width: 320px;
+    font-family: 'Roboto', sans-serif;
+    color:#636466
+  }
+
+.wraper {
+    max-width: 1024px;
+    margin: auto;
+    display: flex;
+}
+
+aside{
+    flex: 1 1 40%;
+    background-color: #dcddde;
+    flex-direction: column;
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+.aside__wraper{
+    width: 80%;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    flex: 1 1 60%;
+    background-color: #636466;
+    color: #ffffff;
+    font-size: 1.5rem;
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+main h1{
+    text-transform: uppercase;
+}
+.main__wraper{
+    width: 80%;
+    margin: auto;
+}
+
+.aside__header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 30px 0 10px;
+}
+.aside__header h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 5px;
+}
+.aside__header img {
+    object-fit: cover;
+  width: 260px;
+  height: 260px;
+     border-radius: 50%;
+    box-shadow: 0px 0px 20px #001e22;
+}
+.aside__header span {
+    font-size: 2.2rem;
+}
+
+.aside__contacts ul{
+    list-style: none;
+    padding:0
+}
+
+.string-block{
+    height: 3px;
+background-color: #949698;
+position: relative;
+}
+
+.string-block__decor{
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 7px;
+    background-color: #31afd8;
+    width: 40px;
+}
+
+.technical-skills ul{
+list-style: none;
+padding-left:20px ;
+}
+
+.technical-skills h3{
+    margin: 5px 0;
+}
+
+pre {
+    width: 100%;
+    padding-left:10px ;
+	margin: 0;
+	overflow: auto;
+	overflow-y: hidden;
+	font-size: 12px;
+	line-height: 20px; 
+    border: 1px solid #777;
+    background-color: #515254;
+}
+
+.work-experience ul li{
+    padding: 5px 0;
+}
+
+@media (max-width: 800px) {
+    .aside__header img {
+        width: 190px;
+        height: 190px;
+      }
+      aside{
+          font-size: 1.4;
+      }
+      main{
+          font-size: 1.4;
+      }
+}
+
+@media (max-width: 700px) {
+     .aside__header img {
+         width: 170px;
+         height: 170px;
+       }
+       aside {
+           font-size: 1.2rem;
+       }
+       main{
+           font-size: 1.2rem;
+       }
+    }
+
+ @media (max-width: 650px) {
+  .wraper {
+       flex-direction: column;
+    }
+    .aside__header img {
+        width: 300px;
+        height: 300px;
+      }
+      aside {
+          font-size: 1.5rem;
+      }
+      main{
+          font-size: 1.5rem;
+      }
+ } 
+
+ @media (max-width: 450px) {
+    .aside__header img {
+        width: 200px;
+        height: 200px;
+      }
+      aside {
+          font-size: 1.3rem;
+      }
+      main{
+          font-size: 1.3rem;
+      }
+ }
